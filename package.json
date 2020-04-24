@@ -1,0 +1,19 @@
+{
+  "name": "usopp-util",
+  "version": "1.0.0",
+  "description": "Some general methods of accumulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everygit/usopp-util.git"
+  },
+  "author": "austin.sun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/everygit/usopp-util/issues"
+  },
+  "homepage": "https://github.com/everygit/usopp-util#readme"
+}
