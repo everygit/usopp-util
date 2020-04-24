@@ -1,6 +1,6 @@
 {
   "name": "usopp-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Some general methods of accumulation",
   "main": "index.js",
   "scripts": {

@@ -11,7 +11,6 @@ export default function(obj, paramsString, defaultValue) {
     var words = parseSyntax(paramsString);
     var cur = obj;
     for (var i = 0; i < words.length; i++) {
-        console.log('!')
         var word = words[i];
         var key = word.type == 'Object' ? word.word : word.index;
         cur = cur[key];
@@ -35,7 +34,6 @@ function parseSyntax(str) {
     var isInArray = false;
 
     while (pos < totalLength) {
-        console.log("?")
         var cur = str.charAt(pos);
         if (isInArray) {
             if (cur == ']') {
