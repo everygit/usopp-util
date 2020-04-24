@@ -34,3 +34,17 @@ var demo = {
 var a = chainval(demo, 'overview.inverters[0].name', 'no-name');
 // sn
 ```
+
+### merge
+
+from jquery
+
+```js
+import { merge } from 'usopp-util'
+
+var r = merge(true, {a:1}, {b:2});
+// {
+//     a: 1,
+//     b: 2
+// }
+```
